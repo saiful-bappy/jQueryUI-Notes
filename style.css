@@ -1,0 +1,114 @@
+.big-box {
+  height: 600px;
+  width: 60%;
+  background: yellow;
+}
+
+.box {
+  height: 300px;
+  width: 300px;
+  background: red;
+}
+
+.drag-and-drop .draggable {
+  height: 300px;
+  width: 300px;
+  background: orange;
+  margin-right: 20px;
+  float: left;
+}
+
+.drag-and-drop .dropable {
+  height: 600px;
+  width: 60%;
+  background: green;
+  overflow: hidden;
+}
+
+.resizable-area .resizable-box {
+  height: 300px;
+  width: 300px;
+  background: hotpink;
+}
+
+.selectable-area {
+  list-style-type: none;
+  padding: 0;
+  width: 40%;
+}
+
+.selectable-area .ui-widget-content {
+  margin: 3px;
+  padding: 0.4em;
+  font-size: 1.4em;
+  text-transform: capitalize;
+  height: 18px;
+}
+
+.selectable-area .ui-selected {
+  background: #f39814;
+  color: red;
+}
+
+.sortable-area {
+  list-style-type: none;
+  padding: 0;
+  width: 40%;
+}
+
+.sortable-area .ui-sortable-handle {
+  font-size: 1.4em;
+  text-transform: capitalize;
+  margin: 3px;
+  padding: 0.4em;
+}
+
+.accordion-area {
+  width: 40%;
+}
+
+.autocomplete-area label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.autocomplete-area #tags {
+  padding: 5px 10px;
+}
+
+#datepicker {
+  padding: 5px;
+}
+
+.animations {
+  font-size: 24px;
+}
+
+#dialog {
+  display: none;
+}
+
+#opener {
+  cursor: pointer;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.menu-area h1 span {
+  font-size: 22px;
+  font-weight: normal;
+}
+
+#menu {
+  width: 20%;
+}
+
+.sub-menu {
+  width: 200px;
+}
+
+#tabs {
+  width: 50%;
+  margin-top: 40px;
+  margin-bottom: 200px;
+}
